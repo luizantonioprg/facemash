@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+*{
+
+	box-sizing: border-box;
+}
+h1{
+	padding: 0;
+	margin: 0;
+}
+header{
+
+	background: #8a0204;
+	color: white;
+	text-align: center;
+	padding: 5vh;
+	font-size:25px;
+
+}
+main{
+	text-align:center;
+}
+.divDasFotos{
+	display: flex;
+	justify-content: center;
+	
+}
+.foto1,.foto2{
+	border:solid 1px black;
+	height:400px;
+	width:300px;
+}
+img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+span{
+
+	margin-top: 25vh;
+	padding: 10px;
+}
+.subfooter{
+	text-align: center;
+	margin-top: 2vh;
+}
+.aComPadding{
+	text-decoration: none;
+	padding: 0px 5px;
+
+}
+h5{
+	display: inline-block;
+	padding: 0px 10px;
+	font-weight: bolder;
+}
+footer{
+	text-align: center;
+}
